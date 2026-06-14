@@ -88,7 +88,8 @@ streamlit run app.py
 
 ---
 
-📸 Application Preview
+📸 ##DEMO
+     ![STERLA AI Demo](sterla_AI_demo.gif)
 
 
 
