@@ -32,36 +32,27 @@ It uses Retrieval-Augmented Generation (RAG) to retrieve relevant information fr
 
 ---
 
-⚙️ RAG Workflow
-'''text
-PDF Upload
-     ↓
-Document Loading
-     ↓
-Text Splitting
-     ↓
-Embedding Generation
-     ↓
-ChromaDB Vector Store
-     ↓
-Retriever
-     ↓
-Gemini LLM
-     ↓
-AI Response
-'''
+## 🏗️ RAG Workflow
+
+- User uploads PDF  
+- PDF is loaded using PyPDF  
+- Text is split into chunks  
+- Embeddings are generated  
+- Stored in ChromaDB  
+- User asks a question  
+- Relevant chunks are retrieved  
+- Gemini generates final answer  
+- Response shown in Streamlit UI
 ---
 
-📂 Project Structure
-'''text
-STERLA AI/
-│
-├── app.py              # Streamlit user interface
-├── rag.py              # RAG pipeline implementation
-├── requirements.txt    # Required Python packages
-├── .gitignore          # Ignored files and folders
-└── README.md           # Project documentation
-'''
+## 📂 Project Structure
+
+- app.py  
+- rag.py  
+- requirements.txt  
+- .gitignore  
+- README.md  
+- sterla_AI_demo.gif
 ---
 
 🚀 Installation & Setup
