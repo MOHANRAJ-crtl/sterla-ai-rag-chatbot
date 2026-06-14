@@ -33,7 +33,7 @@ It uses Retrieval-Augmented Generation (RAG) to retrieve relevant information fr
 ---
 
 ⚙️ RAG Workflow
-
+'''text
 PDF Upload
      ↓
 Document Loading
@@ -49,11 +49,11 @@ Retriever
 Gemini LLM
      ↓
 AI Response
-
+'''
 ---
 
 📂 Project Structure
-
+'''text
 STERLA AI/
 │
 ├── app.py              # Streamlit user interface
@@ -61,7 +61,7 @@ STERLA AI/
 ├── requirements.txt    # Required Python packages
 ├── .gitignore          # Ignored files and folders
 └── README.md           # Project documentation
-
+'''
 ---
 
 🚀 Installation & Setup
